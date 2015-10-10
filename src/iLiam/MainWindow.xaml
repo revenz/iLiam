@@ -1,0 +1,15 @@
+﻿<Window x:Class="iLiam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:iLiam"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="522" Width="943">
+    <Grid>
+        <TextBlock x:Name="tbScore" FrameworkElement.HorizontalAlignment="Left" Margin="682,10,0,0" TextBlock.TextWrapping="Wrap" Text="TextBlock" FrameworkElement.VerticalAlignment="Top" TextBlock.FontSize="32" TextBlock.Foreground="#FFE00000" Width="233" TextAlignment="Right" />
+        <TextBox x:Name="txtAnswer" FrameworkElement.HorizontalAlignment="Left" FrameworkElement.Margin="294,327,0,0" TextBox.TextWrapping="Wrap" TextBox.Text="[ANSWER]" FrameworkElement.VerticalAlignment="Top" FrameworkElement.Height="97" FrameworkElement.Width="338" Control.FontSize="64" />
+        <TextBlock x:Name="tbQuestion" FrameworkElement.HorizontalAlignment="Left" FrameworkElement.Margin="60,112,0,0" TextBlock.TextWrapping="Wrap" TextBlock.Text="[Question]" FrameworkElement.VerticalAlignment="Top" FrameworkElement.Width="834" FrameworkElement.Height="149" TextBlock.FontSize="96" TextBlock.TextAlignment="Center" />
+        <TextBlock x:Name="tbAttempts" HorizontalAlignment="Left" Margin="19,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" TextBlock.FontSize="32" TextBlock.Foreground="#FFE00000" />
+    </Grid>
+</Window>
